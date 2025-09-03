@@ -1,61 +1,67 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## 🚀 Tutorial Laravel 12 + Filament 4 + Tailwind CSS
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Assalamu’alaikum warahmatullahi wabarakatuh, Halo teman-teman semua 👋
 
-## About Laravel
+Pada repository ini, kita akan belajar membangun aplikasi **pencatatan keuangan sederhana** menggunakan **Laravel 12** dengan integrasi **Filament 4** sebagai admin panel modern, serta **Tailwind CSS** untuk styling bawaan yang rapi.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Studi kasus ini memanfaatkan **Filament Panel & Resource** sehingga setup CRUD, autentikasi, tabel, dan form sudah siap pakai.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Dengan pendekatan ini, kita tidak perlu membangun dashboard dari nol. Filament menyediakan UI berbasis Tailwind yang clean dan powerful, sehingga workflow development lebih cepat dan simpel.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+------
 
-## Learning Laravel
+## 🧩 Teknologi yang Digunakan
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Laravel 12** → Framework PHP terbaru, sebagai backend utama.
+- **Filament 4** → Admin panel modern untuk membangun CRUD dengan cepat.
+- **Tailwind CSS** → Utility-first CSS framework untuk tampilan modern & responsif.
+- **MySQL** → Database untuk menyimpan data transaksi.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+------
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 📦 Studi Kasus Aplikasi Keuangan
 
-## Laravel Sponsors
+### 1. Transaksi (Filament Resource)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- Menambahkan, mengedit, menghapus, dan menampilkan transaksi.
+- **Field utama**: `date`, `type (income/expense)`, `category`, `amount`, `note`.
+- CRUD otomatis menggunakan **Filament Resource** dengan tabel & form yang elegan.
 
-### Premium Partners
+### 2. Kategori
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- Manajemen kategori pemasukan & pengeluaran.
+- Contoh kategori: Gaji, Transportasi, Makanan, Tagihan, Hiburan, dll.
 
-## Contributing
+### 3. Dashboard Keuangan
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Menampilkan ringkasan: total pemasukan, total pengeluaran, dan saldo (pemasukan – pengeluaran).
+- Visualisasi data sederhana dengan **Filament Widgets** (chart dan statistik box).
 
-## Code of Conduct
+### 4. Authentication
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Autentikasi user bawaan Laravel sudah terintegrasi dengan Filament.
+- Mendukung login, register, dan middleware auth untuk akses dashboard.
 
-## Security Vulnerabilities
+### 5. Styling dengan Tailwind CSS
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Semua komponen tabel, form, dan dashboard sudah built-in Tailwind CSS melalui Filament.
+- Tampilan clean, responsif, dan mudah dikustomisasi.
 
-## License
+------
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🤝 Kontribusi
+
+Jika menemukan bug atau ingin menambahkan fitur, silakan buat **issue** atau ajukan **pull request**.
+ Mari belajar dan berkembang bersama 🚀
+
+------
+
+## 📄 Lisensi
+
+Proyek ini dirilis di bawah **[MIT License](https://opensource.org/license/MIT)**.
+
+------
+
+## #️⃣ Hashtags
+
+\#Laravel12 #Filament #TailwindCSS #FinanceApp #CRUD #FullStack #PHP #WebDevelopment #MySQL #OpenSource #Coding #BelajarLaravel #lagikoding
